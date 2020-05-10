@@ -1,0 +1,14 @@
+	<nav class="navbar navbar-default">
+
+		<a href="${pageContext.request.contextPath}/" class="navbar-brand">himmat webApplication</a>
+
+		<ul class="nav navbar-nav">
+			<li class="active"><a href="#">Home</a></li>
+			<li><a href="${pageContext.request.contextPath}/list-todos.do">Todos</a></li>
+		</ul>
+
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="${pageContext.request.contextPath}/logout.do">Logout</a></li>
+		</ul>
+
+	</nav>
